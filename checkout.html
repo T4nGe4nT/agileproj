@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Checkout - My E-Commerce Site</title>
 </head>
 <body>
-    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+    <div class="container">
+        <h2>Checkout</h2>
+        <div class="cart-item">
+            <h3>Product 1</h3>
+            <p>Quantity: 1</p>
+            <p>Price: $10.00</p>
+        </div>
+        <div class="cart-item">
+            <h3>Product 2</h3>
+            <p>Quantity: 2</p>
+            <p>Price: $20.00</p>
+        </div>
+        <!-- Repeat for all cart items -->
+        <form>
+            <h3>Billing Information</h3>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State">
+            <input type="text" placeholder="Zip Code">
+            <input type="email" placeholder="Email">
+            <h3>Shipping Information</h3>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State">
+            <input type="text" placeholder="Zip Code">
+            <h3>Payment Information</h3>
+            <input type="text" placeholder="Card Number">
+            <input type="text" placeholder="Expiration Date">
+            <input type="text" placeholder="CVV">
+            <button type="submit">Confirm Order</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 My E-Commerce Site</p>
+    </footer>
 </body>
 </html>
