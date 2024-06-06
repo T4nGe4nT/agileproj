@@ -21,7 +21,7 @@ body {
 nav {
     background-color: #FFF;
     padding: 20px 0;
-    text-align: center;
+    text-align: right;
     box-shadow: 0 4px 2px -2px gray;
 }
 
@@ -315,3 +315,17 @@ form button:hover {
         text-align: left;
     }
 }
+.btn { background-color: #4CAF50;
+border-radius: 0.2em;
+color: white;
+padding: 0.3em;
+}
+
+/* Font Calls Here */
+.josefin {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
