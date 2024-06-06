@@ -1,13 +1,4 @@
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* Apply the fade-in animation to the hero section */
+/* Header & Navi */
 .head {
     display: flex;
     flex-direction: row;
@@ -29,6 +20,20 @@
     background-color: #FFF;
     
 }
+nav {
+    padding: 20px 0;
+    text-align: right;
+    box-shadow: 0 4px 2px -2px gray;
+}
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Body Elements */
+
 .hero {
     animation: fadeIn 2s ease-in-out;
 }
@@ -38,22 +43,6 @@ body {
     background-color: #f7f0dd;
     color: #333;
 }
-
-nav {
-    padding: 20px 0;
-    text-align: right;
-    box-shadow: 0 4px 2px -2px gray;
-    
-
-}
-
-nav a {
-    color: #333;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
 .hero {
     background: url(img/heropic.jpg) no-repeat center center/cover;
     height: 400px;
@@ -65,18 +54,16 @@ nav a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
-
 .hero h1 {
     font-size: 48px;
     margin: 0;
 }
-
 .hero p {
     font-size: 24px;
     margin: 10px 0;
 }
 
-.hero button {
+/* .hero button {
     background-color: #4CAF50;
     color: white;
     padding: 15px 30px;
@@ -84,11 +71,11 @@ nav a {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-}
+} */
 
-.hero button:hover {
+/* .hero button:hover {
     background-color: #45a049;
-}
+} */
 
 footer {
     background-color: #FFF;
@@ -178,11 +165,13 @@ form button:hover {
 }
 
 .product-list .card {
+    display: flex;
     background: #FFF;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    flex-direction: column;
 }
 
 .product-list .card img {
@@ -201,16 +190,18 @@ form button:hover {
 }
 
 .product-list .card button {
+    display: flex;
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .product-list .card button:hover {
-    background-color: #45a049;
+    background-color: #a0459d81;
 }
 .product-description {
     flex: 1;
@@ -255,6 +246,21 @@ form button:hover {
     max-width: 100%;
     border-radius: 10px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+
+/* .btn { background-color: #4CAF50;
+border-radius: 0.2em;
+color: white; Removed for test
+padding: 0.3em;
+} */
+
+/* Responsive scaling Below */
+
 @media (max-width: 1200px) {
     .container {
         width: 90%;
@@ -339,13 +345,9 @@ form button:hover {
         text-align: left;
     }
 }
-.btn { background-color: #4CAF50;
-border-radius: 0.2em;
-color: white;
-padding: 0.3em;
-}
 
 /* Font Calls Here */
+
 .josefin {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -368,5 +370,14 @@ padding: 0.3em;
     font-weight: 700;
     font-style: normal;
   }
-  .producth {text-align: center;}  
-  
+
+  /* Keyframes & Animation */
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
