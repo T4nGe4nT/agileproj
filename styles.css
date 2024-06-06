@@ -128,6 +128,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
 
 button:hover {
@@ -363,4 +365,5 @@ padding: 0.3em;
     font-weight: 700;
     font-style: normal;
   }
-    
+  .producth {text-align: center;}  
+  
