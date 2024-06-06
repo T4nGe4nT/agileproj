@@ -127,7 +127,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #a0459d81;
 }
 form {
     display: grid;
@@ -159,7 +159,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #a0459d81;
 }
 .product-list {
     display: grid;
@@ -238,7 +238,7 @@ form button:hover {
 }
 
 .product-description button:hover {
-    background-color: #45a049;
+    background-color:#a0459d81;
 }
 
 .product-image {
@@ -253,15 +253,8 @@ form button:hover {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 5em;
+    padding: 6em;
 }
-
-
-/* .btn { background-color: #4CAF50;
-border-radius: 0.2em;
-color: white; Removed for test
-padding: 0.3em;
-} */
 
 /* Responsive scaling Below */
 
