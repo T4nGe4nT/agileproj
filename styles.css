@@ -320,3 +320,28 @@ border-radius: 0.2em;
 color: white;
 padding: 0.3em;
 }
+
+/* Font Calls Here */
+.josefin {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.fira-mono-regular {
+    font-family: "Fira Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.fira-mono-medium {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }  
+.fira-mono-bold {
+    font-family: "Fira Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
