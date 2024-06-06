@@ -8,6 +8,24 @@
 }
 
 /* Apply the fade-in animation to the hero section */
+.head {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    background-color: aqua;
+}
+.htext {
+    display: flex;
+    margin: 0;
+
+   
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly
+}
 .hero {
     animation: fadeIn 2s ease-in-out;
 }
@@ -19,10 +37,11 @@ body {
 }
 
 nav {
-    background-color: #FFF;
     padding: 20px 0;
     text-align: right;
     box-shadow: 0 4px 2px -2px gray;
+    
+
 }
 
 nav a {
@@ -33,7 +52,7 @@ nav a {
 }
 
 .hero {
-    background: url(https://st.depositphotos.com/2632165/4026/i/450/depositphotos_40264933-stock-photo-young-plant.jpg) no-repeat center center/cover;
+    background: url(img/heropic.jpg) no-repeat center center/cover;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -325,8 +344,8 @@ padding: 0.3em;
 .josefin {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 800;
+    font-style: bold;
   }
 .fira-mono-regular {
     font-family: "Fira Mono", monospace;
