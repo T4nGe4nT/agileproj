@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    background-color: aqua;
+    background-color: #FFF;
+
 }
 .htext {
     display: flex;
@@ -24,7 +25,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    background-color: #FFF;
+    
 }
 .hero {
     animation: fadeIn 2s ease-in-out;
@@ -32,7 +35,7 @@
 body {
     font-family: 'Arial', sans-serif;
     padding: 0;
-    background-color: #FAF9F6;
+    background-color: #f7f0dd;
     color: #333;
 }
 
