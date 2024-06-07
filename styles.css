@@ -42,6 +42,7 @@ body {
     padding: 0;
     background-color: #f7f0dd;
     color: #333;
+    
 }
 .hero {
     background: url(img/heropic.jpg) no-repeat center center/cover;
@@ -67,19 +68,7 @@ ul {
     list-style-type: none;
 }
 
-/* .hero button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-} */
-
-/* .hero button:hover {
-    background-color: #45a049;
-} */
+/* Footer */
 
 footer {
     background-color: #FFF;
