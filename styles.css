@@ -336,6 +336,20 @@ form button:hover {
     }
     .container {
         flex-direction: column;
+        padding: 0;
+    }
+    .navi {
+        flex-direction: column;
+    }
+    .product-list {
+        flex-direction: column;
+        scale: 75%;
+        margin: 0;
+        padding: 0;
+    }
+    body .container {
+        padding-right: 1.5em;
+
     }
 }
 
