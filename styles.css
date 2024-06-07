@@ -172,10 +172,11 @@ form button:hover {
     display: flex;
     background: #FFF;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
     flex-direction: column;
+    box-shadow: 0 0 10px #666;
 }
 
 .product-list .card img {
@@ -244,16 +245,19 @@ form button:hover {
 .product-image {
     flex: 1;
     text-align: center;
+    object-fit: fill;
 }
 
 .product-image img {
     max-width: 100%;
     border-radius: 10px;
+    
 }
 .container {
     display: flex;
     flex-direction: column;
     padding: 6em;
+    
 }
 
 /* Responsive scaling Below */
@@ -340,6 +344,9 @@ form button:hover {
 
     .total {
         text-align: left;
+    }
+    .container {
+        flex-direction: column;
     }
 }
 
