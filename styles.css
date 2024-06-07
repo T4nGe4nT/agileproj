@@ -37,7 +37,8 @@ nav a {
 .hero {
     animation: fadeIn 2s ease-in-out;
 }
-body { animation: fadeIn .5s ease-in-out;
+body { 
+     animation: fadeIn .5s ease-in-out;
     font-family: 'Arial', sans-serif;
     padding: 0;
     background-color: #f7f0dd;
